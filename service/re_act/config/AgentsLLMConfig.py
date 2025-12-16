@@ -1,10 +1,7 @@
 # coding=utf-8
 import os
 from openai import OpenAI
-from dotenv import load_dotenv
 from typing import List, Dict
-
-load_dotenv()
 
 
 class AgentsLLM:
@@ -51,23 +48,3 @@ class AgentsLLM:
         except Exception as e:
             print(f"❌ 调用LLM API时发生错误: {e}")
             return None
-
-
-# --- 客户端使用示例 ---
-if __name__ == '__main__':
-    try:
-        llmClient = AgentsLLM()
-
-        exampleMessages = [
-            {"role": "system", "content": "You are a helpful assistant that writes Python code."},
-            {"role": "user", "content": "写一个快速排序算法"}
-        ]
-
-        print("--- 调用LLM ---")
-        responseText = llmClient.think(exampleMessages)
-        if responseText:
-            print("\n\n--- 完整模型响应 ---")
-            print(responseText)
-
-    except ValueError as e:
-        print(e)
