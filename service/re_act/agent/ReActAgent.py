@@ -1,6 +1,6 @@
 # coding=utf-8
-from service.re_act.config.AgentsLLMConfig import AgentsLLM
-from service.re_act.execute.ToolExecutor import ToolExecutor
+from armory.config.AgentsLLMConfig import AgentsLLM
+from armory.execute.ToolExecutor import ToolExecutor
 from service.re_act.agent.prompt.sys_prompt import SYS_PROMPT_TEMPLATE
 import re
 
