@@ -1,7 +1,7 @@
 # coding=utf-8
 from dotenv import load_dotenv
 from armory.config.AgentsLLMConfig import AgentsLLM
-from service.plan_and_solve.PlanAndSolveAgent import PlanAndSolveAgent
+from llm_test.way_of_thinking.plan_and_solve.PlanAndSolveAgent import PlanAndSolveAgent
 
 
 # --- PlanAndSolve 测试示例 ---

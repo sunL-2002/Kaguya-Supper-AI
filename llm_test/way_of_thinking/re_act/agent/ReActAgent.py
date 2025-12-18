@@ -1,7 +1,7 @@
 # coding=utf-8
 from armory.config.AgentsLLMConfig import AgentsLLM
 from armory.execute.ToolExecutor import ToolExecutor
-from service.re_act.agent.prompt.sys_prompt import SYS_PROMPT_TEMPLATE
+from llm_test.way_of_thinking.re_act.agent.prompt.sys_prompt import SYS_PROMPT_TEMPLATE
 import re
 
 

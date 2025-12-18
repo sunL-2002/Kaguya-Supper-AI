@@ -1,5 +1,5 @@
 # coding=utf-8
-from service.plan_and_solve.prompt.sys_prompt import SYS_PROMPT_TEMPLATE
+from llm_test.way_of_thinking.plan_and_solve.prompt.sys_prompt import SYS_PROMPT_TEMPLATE
 import ast
 
 

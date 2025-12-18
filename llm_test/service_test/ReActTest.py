@@ -3,7 +3,7 @@ from armory.execute.tools.SearchTool import search
 from dotenv import load_dotenv
 from armory.config.AgentsLLMConfig import AgentsLLM
 from armory.execute.ToolExecutor import ToolExecutor
-from service.re_act.agent.ReActAgent import ReActAgent
+from llm_test.way_of_thinking.re_act.agent.ReActAgent import ReActAgent
 
 # --- 工具初始化与使用示例 ---
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 # coding=utf-8
-from service.plan_and_solve.support.planner_support import Planner
-from service.plan_and_solve.support.executor_support import Executor
+from llm_test.way_of_thinking.plan_and_solve.support.planner_support import Planner
+from llm_test.way_of_thinking.plan_and_solve.support.executor_support import Executor
 
 
 class PlanAndSolveAgent:

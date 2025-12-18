@@ -1,7 +1,7 @@
 # coding=utf-8
 from dotenv import load_dotenv
 from armory.config.AgentsLLMConfig import AgentsLLM
-from service.reflection.ReflectionAgent import ReflectionAgent
+from llm_test.way_of_thinking.reflection.ReflectionAgent import ReflectionAgent
 
 
 # --- Reflection 测试示例 ---

@@ -1,6 +1,6 @@
 # coding=utf-8
-from service.reflection.support.memory_support import Memory
-from service.reflection.prompt.sys_prompt import SYS_PROMPT_TEMPLATE
+from llm_test.way_of_thinking.reflection.support.memory_support import Memory
+from llm_test.way_of_thinking.reflection.prompt.sys_prompt import SYS_PROMPT_TEMPLATE
 
 
 class ReflectionAgent:
